@@ -1,0 +1,40 @@
+.card-wrapper{
+    width: 200px;
+    margin: 20px;
+}
+.card-image{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+
+.bottom-container{
+    background-color: darkgrey;
+    min-height: 200px;
+    padding: 4px;
+    /* height: 200px; */
+    /* display: -webkit-box;
+
+-webkit-line-clamp: 3;
+
+-webkit-box-orient: vertical; */
+    /* overflow-y: hidden; */
+    
+     /* white-space: nowrap;  */
+}
+.result-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.show-description{
+    /* margin: 20px; */
+    height: 100px;
+    overflow: hidden;
+    
+   
+    text-overflow: ellipsis;
+}
+
